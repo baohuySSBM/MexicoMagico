@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mexico Mágico – Authentisches mexikanisches Restaurant</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav-container">
+        <img src="MexicoMagico.png" alt="MexicoMagico" class="logo">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#speisekarte">Speisekarte</a></li>
+            <li><a href="#reservierung">Rezepte</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+
+
+        <select class="language-selector">
+            <option value="de">Deutsch</option>
+            <option value="en">Englisch</option>
+            <option value="es">Spanisch</option>
+        </select>
+
+
+        <div class="nav-icons">
+            <a href="#"><img src="heartIcon.png" alt="Like"></a>
+            <a href="#"><img src="cartIcon.png" alt="Warenkorb"></a>
+            <a href="#"><img src="userIcon.jpg" alt="Login"></a>
+        </div>
+
+
+
+
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Authentische Küche aus Mexiko</h2>
+        <p>Erlebe die Vielfalt unserer Spezialitäten – jetzt reservieren!</p>
+    </section>
+
+    <!-- Speisekarte -->
+    <section id="speisekarte">
+        <h2>Unsere Speisekarte</h2>
+        <ul>
+            <li>Tacos al Pastor – 10,90 €</li>
+            <li>Enchiladas Verdes – 12,50 €</li>
+            <li>Churros mit Schoko – 5,90 €</li>
+        </ul>
+    </section>
+
+    <!-- Reservierung -->
+    <section id="reservierung">
+        <h2>Reservierung</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input id="name" type="text" required />
+
+            <label for="datum">Datum:</label>
+            <input id="datum" type="date" required />
+
+            <label for="personen">Anzahl Personen:</label>
+            <input id="personen" type="number" min="1" required />
+
+            <button type="submit">Reservieren</button>
+        </form>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Mexico Mágico – Alle Rechte vorbehalten</p>
+    </footer>
+
+
+
+</body>
+
+</html>
